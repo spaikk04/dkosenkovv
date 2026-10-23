@@ -1,0 +1,180 @@
+{
+  "sampleRate": 48000,
+  "samples": 2595200,
+  "events": [
+    {
+      "shot": "hook",
+      "src": "air.mp3",
+      "targetFrame": 12,
+      "peakOffsetSamples": 14400,
+      "startSample": 4800,
+      "peakGain": 0.065,
+      "durationSamples": 46340
+    },
+    {
+      "shot": "thinkers",
+      "src": "paper.mp3",
+      "targetFrame": 194,
+      "peakOffsetSamples": 14400,
+      "startSample": 296000,
+      "peakGain": 0.06,
+      "durationSamples": 33272
+    },
+    {
+      "shot": "thinkers",
+      "src": "paper.mp3",
+      "targetFrame": 197,
+      "peakOffsetSamples": 14400,
+      "startSample": 300800,
+      "peakGain": 0.045,
+      "durationSamples": 33272
+    },
+    {
+      "shot": "thinkers",
+      "src": "paper.mp3",
+      "targetFrame": 200,
+      "peakOffsetSamples": 14400,
+      "startSample": 305600,
+      "peakGain": 0.035,
+      "durationSamples": 33272
+    },
+    {
+      "shot": "energy",
+      "src": "air.mp3",
+      "targetFrame": 350,
+      "peakOffsetSamples": 14400,
+      "startSample": 545600,
+      "peakGain": 0.09,
+      "durationSamples": 46340
+    },
+    {
+      "shot": "energy",
+      "src": "impact.mp3",
+      "targetFrame": 354,
+      "peakOffsetSamples": 4166,
+      "startSample": 562234,
+      "peakGain": 0.055,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "dynamis",
+      "src": "metal.mp3",
+      "targetFrame": 469,
+      "peakOffsetSamples": 14400,
+      "startSample": 736000,
+      "peakGain": 0.075,
+      "durationSamples": 20788
+    },
+    {
+      "shot": "dynamis",
+      "src": "impact.mp3",
+      "targetFrame": 502,
+      "peakOffsetSamples": 4166,
+      "startSample": 799034,
+      "peakGain": 0.06,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "pressure",
+      "src": "air.mp3",
+      "targetFrame": 656,
+      "peakOffsetSamples": 14400,
+      "startSample": 1035200,
+      "peakGain": 0.045,
+      "durationSamples": 46340
+    },
+    {
+      "shot": "direction",
+      "src": "metal.mp3",
+      "targetFrame": 917,
+      "peakOffsetSamples": 14400,
+      "startSample": 1452800,
+      "peakGain": 0.09,
+      "durationSamples": 20788
+    },
+    {
+      "shot": "direction",
+      "src": "impact.mp3",
+      "targetFrame": 950,
+      "peakOffsetSamples": 4166,
+      "startSample": 1515834,
+      "peakGain": 0.08,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "step1",
+      "src": "paper.mp3",
+      "targetFrame": 1081,
+      "peakOffsetSamples": 14400,
+      "startSample": 1715200,
+      "peakGain": 0.05,
+      "durationSamples": 33272
+    },
+    {
+      "shot": "step2",
+      "src": "paper.mp3",
+      "targetFrame": 1152,
+      "peakOffsetSamples": 14400,
+      "startSample": 1828800,
+      "peakGain": 0.05,
+      "durationSamples": 33272
+    },
+    {
+      "shot": "step3",
+      "src": "sweep.mp3",
+      "targetFrame": 1290,
+      "peakOffsetSamples": 14224,
+      "startSample": 2049776,
+      "peakGain": 0.05,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "step4",
+      "src": "air.mp3",
+      "targetFrame": 1406,
+      "peakOffsetSamples": 14400,
+      "startSample": 2235200,
+      "peakGain": 0.045,
+      "durationSamples": 46340
+    },
+    {
+      "shot": "step5",
+      "src": "impact.mp3",
+      "targetFrame": 1471,
+      "peakOffsetSamples": 4166,
+      "startSample": 2349434,
+      "peakGain": 0.065,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "close",
+      "src": "air.mp3",
+      "targetFrame": 1552,
+      "peakOffsetSamples": 14400,
+      "startSample": 2468800,
+      "peakGain": 0.08,
+      "durationSamples": 46340
+    },
+    {
+      "shot": "close",
+      "src": "impact.mp3",
+      "targetFrame": 1585,
+      "peakOffsetSamples": 4166,
+      "startSample": 2531834,
+      "peakGain": 0.08,
+      "durationSamples": 36000
+    },
+    {
+      "shot": "close",
+      "src": "shimmer.mp3",
+      "targetFrame": 1598,
+      "peakOffsetSamples": 14400,
+      "startSample": 2542400,
+      "peakGain": 0.03,
+      "durationSamples": 22740
+    }
+  ],
+  "sfxPeakDb": -20.915149811213503,
+  "scoreRmsDb": -34.2903589828105,
+  "scoreSource": "Original deterministic harmonic atmosphere; no rhythmic beat grid or third-party music."
+}

@@ -1,0 +1,6 @@
+[0:v]split=2[main][portrait];
+[main]zoompan=z='if(lt(on,177),1.015+0.015*(on-0)/177,if(lt(on,339),1.065+0.015*(on-177)/162,if(lt(on,455),1.015+0.015*(on-339)/116,if(lt(on,572),1.065+0.015*(on-455)/117,if(lt(on,644),1.015+0.015*(on-572)/72,if(lt(on,770),1.065+0.015*(on-644)/126,if(lt(on,905),1.015+0.015*(on-770)/135,if(lt(on,991),1.065+0.015*(on-905)/86,if(lt(on,1100),1.015+0.015*(on-991)/109,if(lt(on,1140),1.065+0.015*(on-1100)/40,if(lt(on,1394),1.015+0.015*(on-1140)/254,if(lt(on,1457),1.065+0.015*(on-1394)/63,if(lt(on,1540),1.015+0.015*(on-1457)/83,if(lt(on,1622),1.065+0.015*(on-1540)/82,1.02))))))))))))))':x='iw/2-iw/zoom/2':y='ih*.48-ih/zoom*.48':d=1:s=1080x1920:fps=30,eq=saturation=.9:contrast=1.025:brightness=.003,setsar=1[base];
+[portrait]scale=300:534:flags=lanczos,eq=saturation=.9:contrast=1.025:brightness=.003,format=rgba,geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='255*clip(40.5-hypot(max(abs(X-W/2)-(W/2-40),0),max(abs(Y-H/2)-(H/2-40),0)),0,1)'[small];
+[base][small]overlay=108:1050:enable='gte(t,11.266666666666667)*lt(t,15.233333333333333)+gte(t,15.233333333333333)*lt(t,21.466666666666665)+gte(t,30.166666666666668)*lt(t,35.63333333333333)+gte(t,51.333333333333336)*lt(t,54.06666666666667)'[stage];
+[stage][1:v]overlay=0:0:format=auto[graphics];
+[graphics][2:v]overlay=0:1600:format=auto,fade=t=out:st=53.76666666666667:d=0.3,format=yuv420p[v]
