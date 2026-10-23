@@ -1,0 +1,74 @@
+@import './motion.css';
+
+/* MOTION.md DRAFT: palette §1, local type §2, .4s entrance/.3s exit §3,
+   no bounce §4, 32–48px radius + one soft shadow + thin edge §5. */
+.motion-menu {
+  --menu-ground: #0B0E14;
+  --menu-surface: #252C38;
+  --menu-ink: #F4F5F0;
+  --menu-muted: #A4ACBC;
+  --menu-accent: #B5CDFF;
+  --menu-in: .4s;
+  --menu-out: .3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: MotionBody, sans-serif;
+}
+.motion-menu, .motion-menu * {box-sizing: border-box}
+.motion-menu__item {display: flex; width: 64px; transition: width var(--menu-out) ease-out}
+.motion-menu__item[data-active='true'] {width: 180px; transition-duration: var(--menu-in)}
+.motion-menu__button {
+  isolation: isolate;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%; height: 64px;
+  padding: 0 20px;
+  overflow: hidden;
+  border: 1px solid var(--menu-muted);
+  border-radius: 32px;
+  background: var(--menu-surface);
+  color: var(--menu-ink);
+  box-shadow: 0 32px 48px color-mix(in srgb, var(--menu-ground) 70%, transparent);
+  cursor: pointer;
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+.motion-menu__button:focus-visible {outline: 2px solid var(--menu-accent); outline-offset: 4px}
+.motion-menu__wash {
+  position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(45deg, var(--menu-surface), var(--menu-ground));
+  opacity: 0; transition: opacity var(--menu-out) ease-out;
+}
+.motion-menu__icon {
+  color: var(--menu-muted);
+  transform: scale(1);
+  transition: transform var(--menu-out) ease-out, opacity var(--menu-out) ease-out, color var(--menu-out) ease-out;
+}
+.motion-menu__title {
+  position: absolute;
+  max-width: calc(100% - 32px);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 16px; line-height: 1.35; letter-spacing: 0;
+  opacity: 0; transform: scale(.85);
+  transition: transform var(--menu-out) ease-out, opacity var(--menu-out) ease-out;
+}
+.motion-menu__item[data-active='true'] .motion-menu__button {border-color: var(--menu-accent)}
+.motion-menu__item[data-active='true'] .motion-menu__wash {opacity: 1; transition-duration: var(--menu-in)}
+.motion-menu__item[data-active='true'] .motion-menu__icon {color: var(--menu-accent)}
+.motion-menu__item[data-active='true'] .motion-menu__icon[data-has-title='true'] {transform: scale(0); opacity: 0}
+.motion-menu__item[data-active='true'] .motion-menu__title {
+  opacity: 1; transform: scale(1);
+  transition-duration: var(--menu-in); transition-delay: .1s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .motion-menu__item {transition: none}
+  .motion-menu__item[data-active='true'] .motion-menu__icon[data-has-title='true'],
+  .motion-menu__title {transform: none}
+  .motion-menu__icon, .motion-menu__title, .motion-menu__wash {transition: opacity .3s ease-out}
+}

@@ -12,6 +12,6 @@ When you have finished, check your own frames against MOTION.md, fix what fails,
 
 Read brand.md too. Do not call the result on-brand while its required brand values remain unknown. Reuse answers and explicit authorization already present in the conversation; do not repeat answered questions.
 
-When a user supplies component prompts or third-party component code, treat them as structural donors. Preserve the engineering and interaction logic. Replace demo copy with supplied real copy, and map colours, borders, shadows, type and timing to MOTION.md. Never invent missing logos, metrics or business claims.
+Когда пользователь вставляет промпт компонента или код чужого компонента, считай его только структурным донором. Сохраняй его инженерную часть: структуру, алгоритмы, логику взаимодействия и технические механизмы анимации. Заменяй демо-текст настоящим текстом пользователя, а каждый цвет, рамку, тень, шрифт и тайминг переводи в значения из MOTION.md. Если нужного текста или значения в MOTION.md нет, спроси пользователя. Не придумывай логотипы, метрики или бизнес-утверждения.
 
 Use existing checkouts. Do not create a Git worktree unless explicitly requested. Project skills live in .agents/skills; .claude/skills points to the same collection. Consult docs/aibasis-setup.md for installation scope and limitations.
