@@ -1,0 +1,93 @@
+[
+  {
+    "name": "remotion-best-practices",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-best-practices",
+    "verified_files": 144
+  },
+  {
+    "name": "remotion-captions",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-captions",
+    "verified_files": 6
+  },
+  {
+    "name": "remotion-create",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-create",
+    "verified_files": 5
+  },
+  {
+    "name": "remotion-docs",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-docs",
+    "verified_files": 3
+  },
+  {
+    "name": "remotion-interactivity",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-interactivity",
+    "verified_files": 5
+  },
+  {
+    "name": "remotion-maps",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-maps",
+    "verified_files": 32
+  },
+  {
+    "name": "remotion-markup",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-markup",
+    "verified_files": 68
+  },
+  {
+    "name": "remotion-multimedia",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-multimedia",
+    "verified_files": 6
+  },
+  {
+    "name": "remotion-render",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-render",
+    "verified_files": 4
+  },
+  {
+    "name": "remotion-saas",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-saas",
+    "verified_files": 6
+  },
+  {
+    "name": "remotion-studio",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-studio",
+    "verified_files": 3
+  },
+  {
+    "name": "remotion-upgrade",
+    "source": "https://github.com/remotion-dev/skills",
+    "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+    "source_path": "skills/remotion-upgrade",
+    "verified_files": 3
+  },
+  {
+    "name": "motion",
+    "source": "https://github.com/motiondivision/ai-kit",
+    "commit": "0ebeb5313a069986376430f665415252e223d1d4",
+    "source_path": "plugins/motion/skills/motion",
+    "verified_files": 11
+  }
+]

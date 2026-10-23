@@ -1,0 +1,19 @@
+<!doctype html><html><body><template><style>
+@font-face{font-family:Display;src:url('assets/fonts/DejaVuSansCondensed-Bold.ttf')}@font-face{font-family:Body;src:url('assets/fonts/DejaVuSans.ttf')}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0e14}
+#root{--bg:#0b0e14;--ground:#0b0e14;--fg:#f4f5f0;--ink:#f4f5f0;--surface:#252c38;--muted:#a4acbc;--border:#a4acbc;--brand:#b5cdff;--accent:#b5cdff;--accent-2:#b5cdff;--font-display:Display;--font-body:Body;--font-mono:Body;--radius:38px;width:1080px;height:1920px;position:relative;background:var(--bg);color:var(--fg);font-family:Body}
+.clip{position:absolute}.scene{inset:0;overflow:hidden} .eyebrow{font-size:32px;letter-spacing:4px;color:var(--muted)}.display{font-family:Display;letter-spacing:-.02em;line-height:1.05;font-size:108px}
+#chrome{left:108px;right:108px;top:150px;display:flex;justify-content:space-between;font-size:32px;color:var(--muted)}
+#scene1-title{position:absolute;top:360px;left:108px;width:864px}
+#shape{position:absolute;left:230px;top:820px;width:620px;height:160px;border-radius:80px;background:#dce2ec;color:#253146;display:flex;align-items:center;justify-content:center;box-shadow:0 30px 70px #0007;overflow:hidden;transform-origin:center}
+#shape-label{font-family:Display;font-size:82px;letter-spacing:-2px}#detail{position:absolute;left:60px;right:60px;bottom:60px;font-size:38px;line-height:1.4;color:#253146}
+#scene2-title{left:108px;top:360px;position:absolute}#stack-label{position:absolute;left:108px;top:1560px;width:864px;font-size:40px;line-height:1.45;color:var(--muted)}
+#end-title{position:absolute;left:108px;top:520px;width:864px}#end-sub{position:absolute;left:108px;top:1180px;width:864px;font-size:42px;line-height:1.45;color:var(--muted)}
+#marks{position:absolute;top:950px;left:108px;display:flex;gap:28px}.mark{height:116px;width:116px;border:3px solid #b5cdff;border-radius:36px;display:grid;place-items:center;font-size:48px;font-family:Display;color:#b5cdff}
+#footer{left:108px;right:108px;bottom:170px;border-top:2px solid #a4acbc;padding-top:32px;font-size:32px;color:var(--muted)}
+@media(prefers-reduced-motion:reduce){#root{scroll-behavior:auto}}
+
+#shape{left:130px;top:760px;width:820px;height:620px;border-radius:38px;clip-path:inset(230px 100px 230px 100px round 80px);display:block}#shape-label{position:absolute;left:60px;top:255px;}#detail{bottom:70px;font-size:42px;opacity:0;line-height:1.4}
+
+#root{position:absolute;inset:0;width:auto;height:auto;background:transparent}</style><div data-hf-id="hf-zqf4" id="root" data-composition-id="scene2" data-duration="5"><div data-hf-id="hf-xlqa" id="scene2-title"><div data-hf-id="hf-rpm9" class="eyebrow">СОХРАНЯЯ СВЯЗЬ</div><h2 data-hf-id="hf-k4uc" class="display" style="margin-top:32px">НАХОДИТ<br data-hf-id="hf-x5px">СВОЮ ФОРМУ.</h2></div><div data-hf-id="hf-c18l" id="stack-label">Три состояния.<br data-hf-id="hf-rsrt">Одна непрерывная траектория.</div></div><script>const tl=gsap.timeline({paused:true});tl.fromTo('#scene2-title',{opacity:0,y:28},{opacity:1,y:0,duration:.4,ease:'power3.out'},0);
+tl.fromTo('#stack-label',{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:'power3.out'},.4);window.__timelines["scene2"]=tl;</script></template></body></html>

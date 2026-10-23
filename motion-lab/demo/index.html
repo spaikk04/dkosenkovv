@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru" data-resolution="portrait">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920">
+<title>Motion Lab — техническая демонстрация</title>
+<script src="assets/vendor/gsap.min.js"></script>
+<style>
+@font-face{font-family:Display;src:url('assets/fonts/DejaVuSansCondensed-Bold.ttf')}@font-face{font-family:Body;src:url('assets/fonts/DejaVuSans.ttf')}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0e14}
+#root{--bg:#0b0e14;--ground:#0b0e14;--fg:#f4f5f0;--ink:#f4f5f0;--surface:#252c38;--muted:#a4acbc;--border:#a4acbc;--brand:#b5cdff;--accent:#b5cdff;--accent-2:#b5cdff;--font-display:Display;--font-body:Body;--font-mono:Body;--radius:38px;width:1080px;height:1920px;position:relative;background:var(--bg);color:var(--fg);font-family:Body}
+.clip{position:absolute}.scene{inset:0;overflow:hidden} .eyebrow{font-size:32px;letter-spacing:4px;color:var(--muted)}.display{font-family:Display;letter-spacing:-.02em;line-height:1.05;font-size:108px}
+#chrome{left:108px;right:108px;top:150px;display:flex;justify-content:space-between;font-size:32px;color:var(--muted)}
+#scene1-title{position:absolute;top:360px;left:108px;width:864px}
+#shape{position:absolute;left:230px;top:820px;width:620px;height:160px;border-radius:80px;background:#dce2ec;color:#253146;display:flex;align-items:center;justify-content:center;box-shadow:0 30px 70px #0007;overflow:hidden;transform-origin:center}
+#shape-label{font-family:Display;font-size:82px;letter-spacing:-2px}#detail{position:absolute;left:60px;right:60px;bottom:60px;font-size:38px;line-height:1.4;color:#253146}
+#scene2-title{left:108px;top:360px;position:absolute}#stack-label{position:absolute;left:108px;top:1560px;width:864px;font-size:40px;line-height:1.45;color:var(--muted)}
+#end-title{position:absolute;left:108px;top:520px;width:864px}#end-sub{position:absolute;left:108px;top:1180px;width:864px;font-size:42px;line-height:1.45;color:var(--muted)}
+#marks{position:absolute;top:950px;left:108px;display:flex;gap:28px}.mark{height:116px;width:116px;border:3px solid #b5cdff;border-radius:36px;display:grid;place-items:center;font-size:48px;font-family:Display;color:#b5cdff}
+#footer{left:108px;right:108px;bottom:170px;border-top:2px solid #a4acbc;padding-top:32px;font-size:32px;color:var(--muted)}
+@media(prefers-reduced-motion:reduce){#root{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div data-hf-id="hf-czqa" id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1080" data-height="1920" data-fps="30">
+<div data-hf-id="hf-rbfd" id="chrome" class="clip" data-start="0" data-duration="15" data-track-index="5"><span data-hf-id="hf-o868">MOTION LAB</span><span data-hf-id="hf-b6c4">DEMO / 15s</span></div>
+<div data-hf-id="hf-fb2q" id="scene1" class="clip scene" data-composition-id="scene1" data-composition-src="compositions/scene1.html" data-start="0" data-duration="5" data-track-index="1" data-track-kind="graphics"></div>
+<div data-hf-id="hf-0r32" id="scene2" class="clip scene" data-composition-id="scene2" data-composition-src="compositions/scene2.html" data-start="5" data-duration="5" data-track-index="1" data-track-kind="graphics"></div>
+<div data-hf-id="hf-me67" id="spring-stack-shuffle" class="clip" data-composition-id="spring-stack-shuffle" data-composition-src="compositions/components/spring-stack-shuffle.html" data-start="5" data-duration="5" data-track-index="2" data-track-kind="graphics" data-variable-values='{"cards":3,"cues":"1.0,2.0,2.3","accent":"blue","exit":"none"}' style="left:90px;top:660px;width:900px;height:850px" data-layout-allow-overflow data-layout-allow-overlap></div>
+<div data-hf-id="hf-pwal" id="scene3" class="clip scene" data-composition-id="scene3" data-composition-src="compositions/scene3.html" data-start="10" data-duration="5" data-track-index="1" data-track-kind="graphics"></div>
+<div data-hf-id="hf-yi4v" id="footer" class="clip" data-start="0" data-duration="15" data-track-index="5">Технический пример · не реклама бренда</div>
+</div>
+<script>window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});window.__timelines.main=tl;</script>
+</body></html>

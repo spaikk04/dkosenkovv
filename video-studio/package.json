@@ -1,0 +1,62 @@
+{
+  "name": "dkosenkovv-video-studio",
+  "version": "1.0.0",
+  "description": "Product motion studio: Remotion, 3D, typography and audio",
+  "scripts": {
+    "dev": "remotion studio --no-open --port=3000",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "typecheck": "tsc --noEmit",
+    "render:smoke": "remotion render src/index.ts ToolkitCheck out/toolkit-check.mp4 --concurrency=2 --gl=swangle --browser-executable=/usr/bin/chromium",
+    "still:smoke": "remotion still src/index.ts ToolkitCheck out/toolkit-check.png --frame=30 --gl=swangle --browser-executable=/usr/bin/chromium",
+    "render:expert-overlay": "remotion render src/index.ts ExpertPotential out/expert-overlay --sequence --image-format=png --props=production/expert-edit/overlay-props.json --concurrency=4",
+    "compose:expert": "python3 scripts/compose-expert.py"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@remotion/lottie": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "@remotion/motion-blur": "4.0.538",
+    "@remotion/paths": "4.0.538",
+    "@remotion/player": "4.0.538",
+    "@remotion/shapes": "4.0.538",
+    "@remotion/three": "4.0.538",
+    "@remotion/transitions": "4.0.538",
+    "@remotion/zod-types": "4.0.538",
+    "gsap": "3.15.0",
+    "lottie-web": "5.13.0",
+    "lucide-react": "1.61.0",
+    "motion": "14.6.0",
+    "pixi.js": "8.22.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538",
+    "three": "0.186.1",
+    "zod": "4.5.4",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.538",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.186.0",
+    "@types/web": "0.0.166",
+    "@vitejs/plugin-react": "4.7.0",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3",
+    "vite": "6.4.5"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true
+}

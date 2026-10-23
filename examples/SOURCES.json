@@ -1,0 +1,27 @@
+[
+  {
+    "file": "examples/reference-01.jpg",
+    "source": "User-supplied first montage reference",
+    "source_time_seconds": 3
+  },
+  {
+    "file": "examples/reference-02.jpg",
+    "source": "User-supplied first montage reference",
+    "source_time_seconds": 8
+  },
+  {
+    "file": "examples/reference-03.jpg",
+    "source": "User-supplied first montage reference",
+    "source_time_seconds": 15
+  },
+  {
+    "file": "examples/reference-04.jpg",
+    "source": "User-supplied first montage reference",
+    "source_time_seconds": 18
+  },
+  {
+    "file": "examples/reference-05.jpg",
+    "source": "User-supplied first montage reference",
+    "source_time_seconds": 39
+  }
+]

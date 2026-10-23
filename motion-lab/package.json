@@ -1,0 +1,12 @@
+{
+  "name": "dkosenkovv-motion-lab",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "hf": "hyperframes"
+  },
+  "dependencies": {
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.189"
+  }
+}

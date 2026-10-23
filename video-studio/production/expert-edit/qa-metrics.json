@@ -1,0 +1,12 @@
+{
+  "duration": 60.5,
+  "frames": 1815,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "video": "h264",
+  "audio": "aac",
+  "dialogue_offset_ms_first12seconds": 0.0,
+  "note": "Numerical alignment check, not a subjective listening or full lip-sync audit."
+}

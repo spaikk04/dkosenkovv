@@ -1,0 +1,186 @@
+[
+  {
+    "name": "animated-chart",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/animated-chart",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "apple-launch-film",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/apple-launch-film",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "brand-intake",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/brand-intake",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "launch-video",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/launch-video",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "loop-cover",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/loop-cover",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "milestone-reveal",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/milestone-reveal",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "model-showdown",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/model-showdown",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "motion-brief-writer",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/motion-brief-writer",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "motion-effects",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/motion-effects",
+    "verified_files": 2,
+    "status": "installed"
+  },
+  {
+    "name": "motion-prompt-writer",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/motion-prompt-writer",
+    "verified_files": 2,
+    "status": "installed"
+  },
+  {
+    "name": "newsletter-promo",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/newsletter-promo",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "reel-export",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/reel-export",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "reference-to-motion",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/reference-to-motion",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "title-sequence-3d",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/title-sequence-3d",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "vox-explainer",
+    "source": "https://github.com/charlie947/motion-graphics-skills",
+    "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+    "path": "skills/vox-explainer",
+    "verified_files": 1,
+    "status": "installed"
+  },
+  {
+    "name": "figma",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/figma",
+    "verified_files": 2,
+    "status": "installed"
+  },
+  {
+    "name": "hyperframes",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/hyperframes",
+    "verified_files": 77,
+    "status": "installed"
+  },
+  {
+    "name": "hyperframes-cli",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/hyperframes-cli",
+    "verified_files": 13,
+    "status": "installed"
+  },
+  {
+    "name": "hyperframes-registry",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/hyperframes-registry",
+    "verified_files": 13,
+    "status": "installed"
+  },
+  {
+    "name": "media-use",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/media-use",
+    "verified_files": 116,
+    "status": "installed"
+  },
+  {
+    "name": "remotion-to-hyperframes",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/remotion-to-hyperframes",
+    "verified_files": 77,
+    "status": "installed"
+  },
+  {
+    "name": "slideshow",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "commit": "fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1",
+    "path": "skills/slideshow",
+    "verified_files": 2,
+    "status": "installed"
+  },
+  {
+    "name": "apple-design",
+    "source": "https://github.com/emilkowalski/skills",
+    "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/apple-design",
+    "verified_files": 1,
+    "status": "installed"
+  }
+]
